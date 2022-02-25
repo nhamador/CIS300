@@ -1,0 +1,61 @@
+body{
+  text-color: #666666;
+  font-family: Helvetica;
+
+}
+header
+{
+
+  background-image: url("sunset.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+h1
+{
+  background-color: #002171;
+  color: #FFFFFF;
+  margin-bottom:0
+  font-family: Georgia;
+}
+h2
+{
+  color: #1976D2
+  font-family: Georgia;
+}
+h3
+{
+  font-family: Georgia;
+  font-color: #000033
+}
+ul
+{
+  list-style-image: url("marker.gif");
+}
+footer
+{
+  font-size: 75%;
+  font-style: italic;
+  text-align: center;
+  font-family: Georgia
+}
+.resort
+{
+  font-weight: bold;
+}
+#contact
+{
+  font-size: 90%;
+}
+dt
+{
+  color: #002171
+}
+nav
+{
+ background-color: #BBDEFB;
+ font-weight: bold;
+}
+span
+{
+  color: #1976D2
+}
