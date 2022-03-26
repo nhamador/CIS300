@@ -1,34 +1,52 @@
+*{ box-sizing: border-box;}
 main
 {
+  background-color: #FFFFFF;
+  margin-left: 190px;
   padding-top: 1px;
   padding-right: 20px;
   padding-bottom: 20px;
-  padding-left: 20px;
+  padding-left: 30px;
   display: block;
+  overflow: auto;
 }
 body{
   color: #666666;
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(#FFFFFF, #90C7E3);
-  background-repeat: no-repeat;
-  background-color: #90C7E3;
+  background-color: #EAEAEA;
 }
 header
 {
-  background-image: url("sunset.jpg");
-  background-repeat: no-repeat;
-  background-position: right;
   background-color: #002171;
-  height:60px;
+  height:120px;
   text-align: center;
-  padding-top:15px;
+  padding-top:30px;
+  padding-left:3em;
   color: #FFFFFF;
+}
+header :link
+{
+  text-decoration: none;
+  color: #FFFFFF
+}
+header :visited
+{
+  text-decoration: none;
+  color: #FFFFFF
+
+}
+header :hover
+{
+  text-decoration: none;
+  color: #90C7E3;
 }
 h1
 {
   margin-bottom:0;
   font-family: Georgia, Times, serif;
   margin-top:0;
+  font-size: 3em;
+  letter-spacing: 0.25em;
 }
 h2
 {
@@ -41,12 +59,14 @@ h3
   font-family: Georgia, Times, serif;
   color: #000033;
 }
-ul
+main ul
 {
   list-style-image: url(marker.gif);
 }
 footer
 {
+  margin-left: 190px;
+  background-color: #FFFFFF;
   font-size: 75%;
   font-style: italic;
   text-align: center;
@@ -60,10 +80,38 @@ dt
 }
 nav
 {
- background-color: #FFFFFF;
  font-weight: bold;
- text-align: center;
- padding: 1em;
+ font-size: 120%;
+ float: left;
+ width: 160px;
+ padding: 1.5em;
+}
+nav ul 
+{
+  margin: 0;
+  padding-left: 0;
+  font-size: 1.2em;
+  list-style-type: none;
+
+}
+nav :link
+{
+  color: #5C7FA3
+}
+nav :visited
+{
+  color: #344873
+}
+nav :hover
+{
+  color: #A52A2A
+}
+section
+{
+  float: left;
+  width: 33%;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 .resort
 {
@@ -72,7 +120,11 @@ nav
 #wrapper
 {
   width:80%;
-  background-color: #FFFFFF;
+  background-color: #90C7E3;
+  border-color : #000033;
+  border-style : solid;
+  background: linear-gradient(#FFFFFF, #90C7E3);
+  background-repeat: no-repeat;
   min-width: 960px;
   max-width: 2048px;
   box-shadow: 3px 3px #333333;
@@ -81,13 +133,15 @@ nav
 }
 #homehero
 {
+  margin-left: 190px;
   height:300px;
-  background-image: url("coast.jpg");
+  background-image: url("coast2.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 #yurthero
 {
+  margin-left: 190px;
   height:300px;
   background-image: url("yurt.jpg");
   background-size: 100% 100%;
@@ -95,6 +149,7 @@ nav
 }
 #trailhero
 {
+  margin-left: 190px;
   height:300px;
   background-image: url("trail.jpg");
   background-size: 100% 100%;
