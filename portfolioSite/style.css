@@ -1,0 +1,42 @@
+nav
+{
+  background-color: #ff702d;
+}
+nav ul{
+  margin: 0;
+  padding-left: 0;
+  font-size: 1.2em;
+  list-style-type: none;
+}
+nav li{border-bottom: 1px solid #000033}
+
+form { display: flex;
+       flex-flow: column nowrap;
+        width: 60%;
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: 6em 1fr;
+        grid-template-rows: auto auto;
+      }
+input, textarea { margin-bottom: .5em; }
+input[type= "submit"]{
+  grid-column: 2; /*may just be 2 */
+  width: 9em;
+}
+imgCatalog{}
+imgCatalog ul {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid darkred;
+}
+imgCatalog li {
+  height: 40vh;
+  flex-grow: 1;
+}
+
+img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}

@@ -16,7 +16,6 @@ input, textarea { margin-bottom: .5em; }
 input[type= "submit"]{
   grid-column: 2; /*may just be 2 */
   width: 9em;
-
 }
 table {
   border: 2px solid #3399CC;
