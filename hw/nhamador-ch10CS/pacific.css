@@ -67,14 +67,12 @@ nav
  text-align: center;
  margin-top: 0;
 }
-
 nav ul
 {
   margin: 0;
   padding-left: 0;
   font-size: 1.2em;
   list-style-type: none;
-
 }
 nav li{ border-bottom: 1px solid #000033;}
 nav a {text-decoration: none;}
