@@ -68,7 +68,21 @@ img {
   vertical-align: bottom;
   object-position: left;
 }
+#vidContainer{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+#vidContainer div
+{
+  background-color:#dfbaa9a6;
+  margin-right: 15px;
+  margin-bottom:15px;
+  text-align: center;
 
+  
+}
 body
 {
   background-color:#fff9fb;
