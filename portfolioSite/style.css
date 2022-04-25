@@ -4,6 +4,13 @@ nav
   background-color: #ff702d;
   border-bottom: 6px solid #be4b17;
 }
+header h1
+{
+  font-size: 42px;
+  font-family: Helvetica;
+  font-weight:bold;
+  text-align: center;
+}
 .topnav
 { 
   overflow:hidden;
@@ -49,24 +56,40 @@ input[type= "submit"]{
   grid-column: 2; /*may just be 2 */
   width: 9em;
 }
-imgCatalog{}
+nathanPic img{
+  width: 50%;
+  height: 50%
+}
+nathanPic p {
+  margin-left: 15em;
+  margin-right: 15em;
+}
+imgCatalog p{
+  text-align: justify;
+  font-size: 20px;
+}
 imgCatalog ul {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
+  align-items: center;
+  justify-content: center;
 }
 imgCatalog li 
 {
   height: 50vh;
-  flex-grow: 1;
+  
+  background-color:#dfbaa9a6;
+  margin-right: 15px;
+  margin-bottom:100px;
+  text-align: center;
 }
 
 img {
   max-height: 100%;
   min-width: 100%;
   object-fit:contain;
-  vertical-align: bottom;
-  object-position: left;
+
 }
 #vidContainer{
   display:flex;
@@ -80,10 +103,13 @@ img {
   margin-right: 15px;
   margin-bottom:15px;
   text-align: center;
-
-  
 }
 body
 {
   background-color:#fff9fb;
+}
+footer{
+  background-color:#EFA5C2;
+  align-content: center;
+  text-align: center;
 }
